@@ -1,0 +1,45 @@
+/* Applique un style de base à tout le site */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('/image/Background.jpg') no-repeat center center fixed; /* Couleur de fond neutre */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Conteneur central pour centrer le contenu */
+.container {
+    text-align: center;
+}
+
+/* Style pour le bouton avec id 'randombutton' */
+#randomButton {
+    background-color: white; /* Bleu */
+}
+
+#randombutton:hover {
+    background-color: #FFFFFF;
+}
+
+/* Style pour le bouton avec id 'idbutton' */
+#idButton {
+    background-color: yellow; /* Rouge */
+}
+
+#idbutton:hover {
+    background-color: yellow; /* Rouge foncé */
+}
+
+/* Style pour le bouton avec id 'allbutton' */
+#allButton {
+    background-color: red; /* Gris */
+    color: black;
+}
+
+#allbutton:hover {
+    background-color: red; /* Gris foncé */
+}

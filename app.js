@@ -1,4 +1,6 @@
-const btn = document.getElementById("randomButton");
+const btnrdm = document.getElementById("randomButton");
+const btnid = document.getElementById("idButton");
+const btnall = document.getElementById("allButton");
 const result = document.getElementById("result");
 btn.addEventListener("click",async () => {
     const res = await fetch("https://BlagueCarambar.onrender.com/api/v1/BlagueCarambar")
